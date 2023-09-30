@@ -14,13 +14,16 @@ class EpexspotDataParser
     /* @var string $htmlString **/
     private string $htmlString;
 
+    const MARKET_AREA = "DE-LU";
+
     /* @var string[] $respsone **/
     private array $response = [
         "meta" => [
             "baseload" => null,
             "peakload" => null,
             "tradingDate" => null,
-            "deliveryDate" => null
+            "deliveryDate" => null,
+            "marketArea" => self::MARKET_AREA
         ],
         "data" => null
     ];
@@ -55,6 +58,7 @@ class EpexspotDataParser
         $url = self::URL_STRING;
         $url = str_replace("###trading_date###", $this->tradingDate, $url);
         $url = str_replace("###delivery_date###", $this->deliveryDate, $url);
+        $url = str_replace("###market_area###", self::MARKET_AREA, $url);
         $this->url = $url;
     }
 
@@ -111,8 +115,6 @@ class EpexspotDataParser
         $this->response["data"] = $returnArray;
     }
 
-
-
     private function _response()
     {
         $response = json_encode($this->response, JSON_PRETTY_PRINT);
@@ -123,7 +125,7 @@ class EpexspotDataParser
     // Hopefully the pattern works forever :D
     const PATTERN_TABLE =  '/<tr[^>]*>\s*<td>([\d,.]+)<\/td>\s*<td>([\d,.]+)<\/td>\s*<td>([\d,.]+)<\/td>\s*<td>([\d,.]+)<\/td>\s*<\/tr>/';
     const PATTERN_LOAD = '/<th>(Baseload|Peakload)<\/th>\s*<th>\s*<div[^>]*>\s*<span>([\d,.]+)<\/span>/';
-    const URL_STRING = "https://www.epexspot.com/en/market-data?market_area=DE-LU&trading_date=###trading_date###&delivery_date=###delivery_date###&modality=Auction&sub_modality=DayAhead&product=60&data_mode=table";
+    const URL_STRING = "https://www.epexspot.com/en/market-data?market_area=###market_area###&trading_date=###trading_date###&delivery_date=###delivery_date###&modality=Auction&sub_modality=DayAhead&product=60&data_mode=table";
 }
 
 (new EpexspotDataParser)->run();

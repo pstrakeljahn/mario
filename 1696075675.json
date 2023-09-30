@@ -3,7 +3,8 @@
         "baseload": "91.50",
         "peakload": "82.39",
         "tradingDate": "2023-09-29",
-        "deliveryDate": "2023-09-30"
+        "deliveryDate": "2023-09-30",
+        "marketArea": "DE-LU"
     },
     "data": [
         {
