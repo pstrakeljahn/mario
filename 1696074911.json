@@ -1,0 +1,178 @@
+{
+    "meta": {
+        "baseload": "91.50",
+        "peakload": "82.39",
+        "tradingDate": "2023-09-29",
+        "deliveryDate": "2023-09-30"
+    },
+    "data": [
+        {
+            "hour": 0,
+            "buyVolume": "24497.4",
+            "sellVolume": "21843.2",
+            "volume": "24497.4",
+            "price": "90.95"
+        },
+        {
+            "hour": 1,
+            "buyVolume": "25331.9",
+            "sellVolume": "22238.4",
+            "volume": "25331.9",
+            "price": "88.89"
+        },
+        {
+            "hour": 2,
+            "buyVolume": "25743.0",
+            "sellVolume": "22386.1",
+            "volume": "25743.0",
+            "price": "88.78"
+        },
+        {
+            "hour": 3,
+            "buyVolume": "26098.9",
+            "sellVolume": "21941.1",
+            "volume": "26098.9",
+            "price": "88.72"
+        },
+        {
+            "hour": 4,
+            "buyVolume": "26494.9",
+            "sellVolume": "21421.4",
+            "volume": "26494.9",
+            "price": "88.28"
+        },
+        {
+            "hour": 5,
+            "buyVolume": "26236.7",
+            "sellVolume": "21096.2",
+            "volume": "26236.7",
+            "price": "92.10"
+        },
+        {
+            "hour": 6,
+            "buyVolume": "26717.3",
+            "sellVolume": "21761.4",
+            "volume": "26717.3",
+            "price": "105.30"
+        },
+        {
+            "hour": 7,
+            "buyVolume": "27253.6",
+            "sellVolume": "21226.5",
+            "volume": "27253.6",
+            "price": "109.46"
+        },
+        {
+            "hour": 8,
+            "buyVolume": "27758.0",
+            "sellVolume": "22238.9",
+            "volume": "27758.0",
+            "price": "110.05"
+        },
+        {
+            "hour": 9,
+            "buyVolume": "30291.7",
+            "sellVolume": "25681.2",
+            "volume": "30291.7",
+            "price": "104.97"
+        },
+        {
+            "hour": 10,
+            "buyVolume": "33597.5",
+            "sellVolume": "29914.5",
+            "volume": "33597.5",
+            "price": "87.52"
+        },
+        {
+            "hour": 11,
+            "buyVolume": "35694.9",
+            "sellVolume": "34376.2",
+            "volume": "35694.9",
+            "price": "70.53"
+        },
+        {
+            "hour": 12,
+            "buyVolume": "35104.3",
+            "sellVolume": "37700.5",
+            "volume": "37700.5",
+            "price": "42.76"
+        },
+        {
+            "hour": 13,
+            "buyVolume": "34927.5",
+            "sellVolume": "38740.3",
+            "volume": "38740.3",
+            "price": "8.76"
+        },
+        {
+            "hour": 14,
+            "buyVolume": "34122.5",
+            "sellVolume": "37926.8",
+            "volume": "37926.8",
+            "price": "15.04"
+        },
+        {
+            "hour": 15,
+            "buyVolume": "33921.0",
+            "sellVolume": "34826.8",
+            "volume": "34826.8",
+            "price": "56.00"
+        },
+        {
+            "hour": 16,
+            "buyVolume": "31730.3",
+            "sellVolume": "29120.4",
+            "volume": "31730.3",
+            "price": "85.01"
+        },
+        {
+            "hour": 17,
+            "buyVolume": "30092.9",
+            "sellVolume": "25139.9",
+            "volume": "30092.9",
+            "price": "107.70"
+        },
+        {
+            "hour": 18,
+            "buyVolume": "31743.5",
+            "sellVolume": "22457.5",
+            "volume": "31743.5",
+            "price": "136.41"
+        },
+        {
+            "hour": 19,
+            "buyVolume": "32646.9",
+            "sellVolume": "22466.7",
+            "volume": "32646.9",
+            "price": "163.90"
+        },
+        {
+            "hour": 20,
+            "buyVolume": "31753.4",
+            "sellVolume": "21663.1",
+            "volume": "31753.4",
+            "price": "134.10"
+        },
+        {
+            "hour": 21,
+            "buyVolume": "30801.4",
+            "sellVolume": "21731.3",
+            "volume": "30801.4",
+            "price": "112.40"
+        },
+        {
+            "hour": 22,
+            "buyVolume": "29850.6",
+            "sellVolume": "21621.4",
+            "volume": "29850.6",
+            "price": "107.40"
+        },
+        {
+            "hour": 23,
+            "buyVolume": "28543.5",
+            "sellVolume": "21305.8",
+            "volume": "28543.5",
+            "price": "101.04"
+        }
+    ]
+}
